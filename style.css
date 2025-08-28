@@ -18,7 +18,7 @@ body{
 opacity: 1;
 padding: 85px 0;
   width: 100%;
-  height:140vh;
+  min-height:140vh;
   background-color:#2F1893 ;
 }
 
@@ -284,11 +284,11 @@ height: 60px;
   justify-content: center;
   padding: 107px 0;
   background-image: url("./images/Image2.png");
-  margin: 150px 0;
+  margin: 0;
 /* width: 1400px; */
 /* height: 540px; */
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   background-color:#2F1893 ;
 
 }
@@ -407,7 +407,7 @@ color:#FFFFFF;
 
 
 .features-container{
-  margin: 150px 0;
+  margin: 0;
   background-image: url('./images/Rectangle.png');
    width: 100%;
    height: 100vh;
@@ -724,7 +724,7 @@ background-image:url("./images/Background.png") ;
 angle: 0 deg;
 opacity: 1;
 width: 100%;
-height:120vh;
+min-height:120vh;
 background-color:#2F1893 ;
 padding: 100px 216px ;
 }
@@ -960,8 +960,8 @@ height: 800px;
 angle: 0 deg;
 opacity: 1;
 background:#1E0E62 ;
-margin: 150px 0;
-height: 140vh;
+margin: 0;
+min-height: 140vh;
 }
 
 .testimonial_parent{
@@ -1188,7 +1188,7 @@ color:white;
 opacity: 1;
 padding: 85px 0;
   width: 100%;
-  height:100vh;
+ height:90vh;
   background-color:#2F1893 ;
 
 }
@@ -1354,8 +1354,8 @@ border-radius: 40px;
 opacity: 1;
 padding: 85px 0;
   width: 100%;
-  height:190vh;
-  margin: 150px 0;
+  min-height:190vh;
+  margin: 0;
   background-color:#2F1893 ;
 }
 .works-content{
@@ -1670,8 +1670,8 @@ color:#fff;
 .team-container{
   padding: 100px 115px;
   width: 100%;
-  height:190vh;
-  margin: 150px 0;
+  min-height:190vh;
+  margin:0;
   background-color:#2F1893 ;
   
 }
@@ -2021,8 +2021,8 @@ left: 415px; */
    background-image: url('./images/Background8.png');
   padding: 0px 215px;
   width: 100%;
-  height:125vh;
-  margin: 150px 0;
+  min-height:125vh;
+  margin: 0;
   background-color:#2F1893 ;
   
 }
@@ -2398,8 +2398,8 @@ border: 2px solid purple;
   justify-content: center;
   /* padding: 100px 0px; */
   width: 100%; 
-  height: 180vh; 
-  margin: 180px 0;
+  min-height: 180vh; 
+  margin: 0;
   background: url('./images/Mask12.png') no-repeat center center;
   background-size: cover;
   padding: 20px 0;
@@ -2825,8 +2825,8 @@ border: 2px solid rgba(255, 255, 255, 0.5)
   /* gap:89px; */
   /* padding: 0px 215px; */
   width: 100%;
-  height:50vh;
-  margin: 150px 0;
+  min-height:50vh;
+  margin: 0;
   background-color:#2F1893 ;
 }
 
@@ -3167,7 +3167,7 @@ color:#FFFFFF;
     /* Container */
   .sample-container {
     padding: 60px 20px;
-    margin: 80px 0;
+    margin:  0;
     height: auto; /* allow flexible height */
     background-size: cover;
     background-position: center;
@@ -3229,7 +3229,7 @@ color:#FFFFFF;
   .features-container {
     height: auto; /* let it grow naturally */
     padding: 60px 20px;
-    margin: 80px 0;
+    margin: 0;
     background-size: cover;
     background-position: center;
   }
@@ -3589,7 +3589,7 @@ color:#FFFFFF;
   
   .showcase-container {
     height: auto;
-    margin: 80px 0;
+    margin:  0;
     padding: 60px 20px;
   }
 
@@ -3685,7 +3685,7 @@ color:#FFFFFF;
   .team-container {
     padding: 60px 30px;
     height: auto;
-    margin: 80px 0;
+    margin: 0;
   }
 
   .team-content {
@@ -3821,9 +3821,9 @@ color:#FFFFFF;
   }
 
   .contact-container {
-    flex-direction: column;   /* stack content + form */
+    flex-direction: column;   
     padding: 60px 40px;       /* reduce side padding */
-    height: auto;             /* let height grow naturally */
+    min-height: auto;             /* let height grow naturally */
     gap: 60px;                /* reduce spacing */
   }
 
@@ -3934,7 +3934,7 @@ color:#FFFFFF;
 
   .pricing-container {
     height: auto;               /* let it grow naturally */
-    margin: 80px 0;
+    margin:  0;
     padding: 40px 20px;         /* add side breathing room */
     background-position: center;
   }
@@ -4001,7 +4001,7 @@ color:#FFFFFF;
 
    .footer-container {
     height: auto;   /* let height grow naturally */
-    margin: 80px 0; /* reduce spacing */
+    margin: 0; /* reduce spacing */
     padding: 20px;
   }
 
@@ -4322,7 +4322,7 @@ left: 515px; */
   /* FOOTER */
   .footer-container {
     padding: 15px;
-    margin: 40px 0;
+    margin:  0;
   }
 
   .footer-service {
