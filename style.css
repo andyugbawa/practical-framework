@@ -6,8 +6,8 @@
 
 
 body{
-  background-color: black;
-}
+    overflow-x: hidden; 
+} 
 
 /* START */
 
@@ -4334,6 +4334,371 @@ left: 515px; */
     font-size: 12px;
   }
 }
+
+
+
+
+@media (max-width:475px) {
+  
+  .input-container {
+    padding: 0 0 0 12px;  /* reduced */
+  }
+
+  
+  .footer-service {
+    gap:4px;
+    /* font-size: 3px; */
+  }
+  .tour-text{
+     font-size: 13px;
+  }
+
+  .reserved_text {
+    font-size: 11px;
+  }
+
+
+  
+.Oworks_content{
+width: 78px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 267px; */
+/* border:2px solid aqua; */
+
+}
+
+  
+.tour_content{
+width: 32px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 115px; */
+/* border:2px solid aqua; */
+margin: 0 3px;
+
+}
+
+  
+.priplan_content{
+width: 93px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 267px; */
+/* border:2px solid aqua; */
+padding: 0 10px;
+
+}
+}
+
+
+
+
+@media (max-width: 375px) {
+
+  /* GENERAL FIX: Prevent horizontal scroll */
+  html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+   
+
+   img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  /* HERO */
+  .community-hero {
+    padding: 30px 12px;
+    height: auto;
+  }
+
+  .community-hero nav ul {
+    gap: 12px;
+    flex-wrap: wrap; /* avoid overflow */
+  }
+
+  .behance-logo {
+    font-size: 14px;
+  }
+
+  /* STARTUP SECTION */
+  .forget {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .code-content {
+    width: 100%;         /* was 441px */
+    max-width: 100%;
+    height: auto;        /* let content decide */
+  }
+
+  .frame-code {
+    padding: 15px 0;
+  }
+
+  .framework {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* BUTTON */
+  .button-content,
+  .account-btn {
+    width: 100%;
+    max-width: 180px;   /* scale down */
+    height: 42px;
+    font-size: 13px;
+  }
+
+  /* SAMPLE SECTION */
+  .generator {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .complex-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* FEATURES */
+  .create_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .company_text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .creatNew-content,
+  .new-create {
+    width: 100%;        /* was fixed 300px */
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .happy-container{
+    padding: 0 0 0 0;
+  }
+
+  /* FORM SECTION */
+  .prolems_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .problems_content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;     /* prevent overflow */
+  }
+
+  .developer_text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .input-container {
+    padding: 0 0 0 0px;  /* reduced */
+  }
+
+  .signup-form input,
+  .btn {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  /* TESTIMONIAL */
+  .happy_text1 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* ACTION */
+  .set-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .boot-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .start-btn {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+
+  /* SHOWCASE */
+  .works-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  /* TEAM */
+  .crew_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .text_blocks {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .name_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .skill1,
+  .skill-pull,
+  .skill-pull1,
+  .skill-pull2,
+  .skill-pull3 {
+    padding: 0 0 0 10px;
+    margin: 0;  /* remove negative margin */
+  }
+
+  .design {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .face, .face1 {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* CONTACT */
+  .touch_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .text-comp {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .contactform-content {
+    padding: 10px;
+  }
+
+  .send-btn {
+    width: 100%;
+    max-width: 200px;
+    font-size: 12px;
+  }
+
+  /* PRICING */
+  .plan_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .domain_text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .starter-box,
+  .proffessional-box,
+  .team-box {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .footer-service {
+    flex-wrap: wrap;
+    /* gap:4px; */
+    /* font-size: 3px; */
+    
+  }
+  
+    
+  
+.tour_content{
+width: 32px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 115px; */
+/* border:2px solid aqua; */
+margin: 0 3px;
+
+}
+  }
+
+  .reserved_text {
+    font-size: 11px;
+  }
+
+
+  
+.Oworks_content{
+width: 78px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 267px; */
+/* border:2px solid aqua; */
+
+}
+
+  
+.tour_content{
+width: 32px;
+height: 26px;
+/* border:2px solid aqua; */
+margin: 0 3px;
+
+}
+
+  
+.priplan_content{
+width: 93px;
+height: 26px;
+angle: 0 deg;
+opacity: 1;
+/* top: 169.4px;
+left: 267px; */
+/* border:2px solid aqua; */
+padding: 0 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
