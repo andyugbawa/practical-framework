@@ -4340,6 +4340,10 @@ left: 515px; */
 
 @media (max-width:475px) {
   
+body{
+    overflow-x: hidden; 
+} 
+  
   .input-container {
     padding: 0 0 0 12px;  /* reduced */
   }
@@ -4395,6 +4399,14 @@ left: 267px; */
 padding: 0 10px;
 
 }
+}
+
+
+@media (max-width:397px) {
+      
+html,body{
+    overflow-x: hidden; 
+} 
 }
 
 
